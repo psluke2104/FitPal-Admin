@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadThumbnailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text= "Choose Target Muscle"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="5dp">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioNotype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="No Type">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radiolatestMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Calisthenics Excercises">
+
+            </RadioButton>
+            <RadioButton
+            android:id="@+id/radiobestpopularMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Weights Exercises">
+
+        </RadioButton>
+            <RadioButton
+                android:id="@+id/radioSlideMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="BodyWeight Exercises">
+
+            </RadioButton>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showimagechooser"
+                android:text="upload thumbnail">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/textNothumbnailSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="no file selected">
+
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="upload"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonUpload"
+            android:textStyle="bold"
+            android:onClick ="uploadfiletofirebase" ></Button>
+<ImageView
+    android:layout_marginTop="10dp"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/imageView"></ImageView>
+
+    </LinearLayout>
+
+</RelativeLayout>

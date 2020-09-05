@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246453301346",
+    "firebase_url": "https://adminfitpal.firebaseio.com",
+    "project_id": "adminfitpal",
+    "storage_bucket": "adminfitpal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246453301346:android:67c130d3713efe2fbaa13b",
+        "android_client_info": {
+          "package_name": "com.example.adminfitpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246453301346-620t39ke8ecljnahpgvf0pou4pr7irdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEgIsC3_MesUw_16Tj4r3ZBhPpP_k0GIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246453301346-620t39ke8ecljnahpgvf0pou4pr7irdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
